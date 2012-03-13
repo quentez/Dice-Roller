@@ -10,7 +10,7 @@ Not anymore! With the _Dice Roller_, you can roll many dice at once, from the co
 
 ## Screenshot
 
-![Dice Roller](http://dl.dropbox.com/u/7107918/github/diceroller/DiceRollerScreenshot.png)
+![Dice Roller](http://dl.dropbox.com/u/7107918/github/diceroller/DiceRollerScreenshot2.png)
 
 ## How to install
 

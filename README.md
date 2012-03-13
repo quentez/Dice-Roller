@@ -14,9 +14,9 @@ Not anymore! With the _Dice Roller_, you can roll many dice at once, from the co
 
 ## How to install
 
-This App requires the .Net Framework 4, and will install it automatically if you don't have it (if you want to install it yourself, [here's a link](http://www.microsoft.com/download/en/details.aspx?id=17851)).
+This App requires the .Net Framework 4, and will install it automatically if you don't have it (if you want to install by yourself, [here's a link](http://www.microsoft.com/download/en/details.aspx?id=17851)).
 
-[Download the installer](http://update.quentez.com/diceroller/setup.exe)
+**[Download the Dice Roller installer](http://update.quentez.com/diceroller/setup.exe)**
 
 This App contains an auto-updater so you won't have to worry about having to install new versions as they'll be released.
 

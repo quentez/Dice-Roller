@@ -1,22 +1,27 @@
-# INSA House Connector
+# Dice Roller
 
 ## About
 
-This small Windows Executable aims at reducing the hassle of having to re-authenticate any time you shutdown or unplug your computer from the INSA House Network.
+This App is for a very specific audience: the **role-playing gamemasters**. 
 
-With _INSA House Connector_ you enter your identification information once and you're done.
+If you are a member fo this elite group, then you know what it means to have more then twenty dice of different sizes and shapes in order to let faith decide of the destiny of your fellow role-players. And therefore you know it can sometimes be a pain to roll them, time after time.
+
+Not anymore! With the _Dice Roller_, you can roll many dice at once, from the comfort of your computer screen.
+
+## Screenshot
+
+![Dice Roller](http://dl.dropbox.com/u/7107918/github/diceroller/DiceRollerScreenshot.png)
 
 ## How to install
 
-- Install the _.Net Framework 4.5 Beta_ from the [Microsoft website](http://www.microsoft.com/download/en/details.aspx?id=28978).
-- Install the _INSA House Connector_ using [this link](http://update.quentez.com/reslogin/setup.exe).
+This App requires the .Net Framework 4, and will install it automatically if you don't have it (if you want to install it yourself, [here's a link](http://www.microsoft.com/download/en/details.aspx?id=17851)).
 
-The App contains an auto-updater so you won't have to worry about having to install new versions as they'll be released.
+[Download the installer](http://update.quentez.com/diceroller/setup.exe)
 
-At the moment, the program won't register itself to start with Windows. If you want that, you can add a shortcut to the tool in the **Startup** folder of the **Start Menu**.
+This App contains an auto-updater so you won't have to worry about having to install new versions as they'll be released.
 
 ## Contributing
 
 If you find any bug, or have suggestions regarding this App, don't hesitate to open a GitHub issue and I'll try to answer it quickly.
 
-If you want to improve the codebase, or add new features by yourself, you're welcome to clone this repository. You will need the _Visual Studio 11 Beta_ to work on this project though.
+If you want to improve the codebase, or add new features by yourself, you're more than welcome to clone this repository.

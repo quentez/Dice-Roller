@@ -1,0 +1,16 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="Dice"
+	x:Name="UserControl"
+	d:DesignWidth="640" d:DesignHeight="480" Width="40" Height="40">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid x:Name="GridDiceContent" Background="{Binding RealDiceColor, ElementName=UserControl}" Margin="0">
+			<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="{Binding RealText, ElementName=UserControl}" FontFamily="/LanceDes;component/Fonts/#Segoe WP Semibold" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="29.333" Foreground="White"/>
+		</Grid>
+	</Grid>
+</UserControl>

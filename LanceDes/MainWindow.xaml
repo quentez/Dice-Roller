@@ -1,0 +1,39 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:local="clr-namespace:DiceRoller"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="MainWindow"
+	x:Name="Window"
+	Title="Dice Roller"
+	Width="640" Height="480" MinWidth="640" MinHeight="480">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.Background>
+			<RadialGradientBrush RadiusY="0.925" RadiusX="0.925">
+				<GradientStop Color="Gainsboro" Offset="0"/>
+				<GradientStop Color="#FF272727" Offset="1"/>
+			</RadialGradientBrush>
+		</Grid.Background>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+		<Canvas x:Name="CanvasDice" Margin="0" Grid.Column="1"/>
+		<StackPanel HorizontalAlignment="Left" Margin="0" Width="260">
+			<StackPanel x:Name="StackDC" Orientation="Vertical">
+				<local:DiceControl x:Name="DC4" Height="Auto" Margin="0" DiceColor="Black" Text="D4" DiceNumber="4"/>
+				<local:DiceControl x:Name="DC6" Height="Auto" Margin="0" DiceColor="#FF2B2B2B" Text="D6" DiceNumber="6"/>
+				<local:DiceControl x:Name="DC8" Height="Auto" Margin="0" DiceColor="#FF5C5C5C" Text="D8" DiceNumber="8"/>
+				<local:DiceControl x:Name="DC10" Height="Auto" Margin="0" DiceColor="#FF9D1414" Text="D10" DiceNumber="10"/>
+				<local:DiceControl x:Name="DC20" Height="Auto" Margin="0" DiceColor="#FFDC0000" Text="D20" DiceNumber="20"/>
+			</StackPanel>
+			<Grid Height="60" Margin="0">
+				<StackPanel Margin="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+					<Button x:Name="BTReset" Content="Reset" Margin="0" VerticalAlignment="Center" Width="70" Height="30" Background="{x:Null}" BorderBrush="White" FontSize="20"/>
+					<Button x:Name="BTRoll" Content="Roll" Margin="20,0,0,0" VerticalAlignment="Center" Width="70" Height="30" Background="{x:Null}" BorderBrush="White" FontSize="20"/>
+				</StackPanel>
+			</Grid>
+		</StackPanel>
+	</Grid>
+</Window>

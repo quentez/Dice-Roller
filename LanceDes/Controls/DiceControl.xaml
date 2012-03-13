@@ -1,0 +1,22 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:local="clr-namespace:DiceRoller"
+	mc:Ignorable="d"
+	x:Class="DiceControl"
+	x:Name="UserControl"
+	d:DesignWidth="640" d:DesignHeight="480" Height="80">
+
+	<Grid x:Name="LayoutRoot" Background="{Binding DiceColor, ElementName=UserControl}">
+		<Grid Margin="0">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			<TextBlock Margin="20,0,20,4" TextWrapping="Wrap" Text="{Binding Text, ElementName=UserControl}" VerticalAlignment="Center" FontFamily="/LanceDes;component/Fonts/#Segoe WP Semibold" FontSize="26.667" Foreground="White"/>
+			<local:DiceCounter x:Name="DCMain" HorizontalAlignment="Left" Margin="0,0,20,0" Grid.Column="1" VerticalAlignment="Center" />
+		</Grid>
+	</Grid>
+</UserControl>

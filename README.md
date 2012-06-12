@@ -4,7 +4,7 @@
 
 This App is for a very specific audience: the **role-playing gamemasters**. 
 
-If you are a member fo this elite group, then you know what it means to have more then twenty dice of different sizes and shapes in order to let faith decide of the destiny of your fellow role-players. And therefore you know it can sometimes be a pain to roll them, time after time.
+If you are a member of this elite group, then you know what it means to have more then twenty dice of different sizes and shapes in order to let faith decide of the destiny of your fellow role-players. And therefore you know it can sometimes be a pain to roll them, time after time.
 
 Not anymore! With the _Dice Roller_, you can roll many dice at once, from the comfort of your computer screen.
 
